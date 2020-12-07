@@ -1,0 +1,38 @@
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.nav {
+  background-color: #282c34;
+  display: flex;
+  max-height: 100vh;
+  justify-content: space-around;
+  wrap: nonwrap;
+  color: white;
+}
+.homeContent{
+  display: grid;
+  flex-direction: column;
+  background-color: #ffffff;
+  color: black;
+}
+.loginContent{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  height: 50px;
+  width: 400px;
+
+}
